@@ -1,6 +1,6 @@
 # MyProjects
 
-This is a repository that shows a small selection of my ML, Web Development/scraping, and multi-class Java projects. Please note that I was unable to access my largest scale, multi-class Java projects (Pacman, DoodleJump, Tetris)as they were on a previous, broken computer.
+This is a repository that shows a small selection of my ML, Web Development/scraping, and multi-class Java projects.
 
 ## Projects in this repository
 

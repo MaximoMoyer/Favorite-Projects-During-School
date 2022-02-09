@@ -1,11 +1,6 @@
 # Final Project
 This was a final project for my data science class
 
-## Data Deliverable ##
-
-- #### Data Spec ####
-  [Data spec](data_deliverable/data/)
-
 - #### Reports ####
   - [Tech Report](data_deliverable/reports/tech_report/)
   - [Socio-historical Context and Impact Report](data_deliverable/reports/social_impact_report)

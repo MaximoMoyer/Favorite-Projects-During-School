@@ -6,6 +6,10 @@ This is a repository that shows a small selection of my ML, Web Development/scra
 
 ### ML
 
+**Fire_Prediction - NaiveBayes_DecisionTree_HeatMap(Python)**
+
+- Using National Fire Incident Reporting Systems Data, joined with the virtual weather crossing API, to determine what type ("Natural Vegetation", "Structural", "Vehicle") is most likely to occur given the weather.
+
 **Bitcoin_Transaction_Prediction - word2vec_DeepWalks_TemporalTraining(Python)**
 
 **Cancer_Prediction - Message_Passing_NN_On_Graphs(Python)**

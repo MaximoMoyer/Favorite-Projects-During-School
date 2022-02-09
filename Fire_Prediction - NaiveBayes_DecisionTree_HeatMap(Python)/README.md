@@ -1,15 +1,16 @@
 # Final Project Summary
-This was a final project for my data science class. We requested FEMA's NFIRS (National Fire Incident Reporting System) incident report data. We joined this data (details in data report below) with the virtualcrossing weather API based on zip code and day, to get the weather in a given location on the given day there was a fire. We then used this joint data to see if we could predict which of the most common 3 fire types would ocurr on a given day ("Vehicle", "Structural", "Natural vegetation").  We used a Naive Bayes, a Decision Tree, a heat map, and seasonal bar chart in our investigation.  A more in depth, 1 page discussion of our outcomes can be found [here](final_deliverable/poster/DS_Final_Project_one_page_summary.pdf)
+This was a final project for my data science class. We requested FEMA's NFIRS (National Fire Incident Reporting System) incident report data. We joined this data (details in data report below) with the virtualcrossing weather API based on zip code and day, to get the weather in a given location on the given day there was a fire. We then used this joint data to see if we could predict which of the most common 3 fire types would ocurr on a given day ("Vehicle", "Structural", "Natural vegetation").  We used a Naive Bayes, a Decision Tree, a heat map, and seasonal bar chart in our investigation.  
 
-- [Data Report](data_report/README.md)
+- A more in depth, 1 page discussion of our outcomes can be found here: [Outcomes Deliverable](final_deliverable/poster/DS_Final_Project_one_page_summary.pdf)
+- 
+- The folder with our code (complete with a readme including decision decisions and run instructions) can be found here: [Code Repo](final_deliverable/code). 
 
-## Final Deliverable ##
+- A report on how we collected and joined our data, alongside its shortcomings can be found here: [Data Report](data_report/README.md)
+
+## Visual Deliverables ##
 
 - #### Poster ####
   [Poster](final_deliverable/poster/Poster.pdf)
-
-- #### Code ####
-  [Code](final_deliverable/code/)
 
 - #### Visualizations ####
   [Visualizations](final_deliverable/visualizations)

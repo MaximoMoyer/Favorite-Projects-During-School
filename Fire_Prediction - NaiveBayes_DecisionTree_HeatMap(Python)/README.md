@@ -1,7 +1,7 @@
 # Final Project
 This was a final project for my data science class
 
-- #### Reports ####
+- #### Data Origins ####
   - [Tech Report](data_report/README.md)
 
 ## Final Deliverable ##

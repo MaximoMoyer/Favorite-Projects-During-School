@@ -2,8 +2,7 @@
 This was a final project for my data science class
 
 - #### Reports ####
-  - [Tech Report](data_deliverable/reports/tech_report/)
-  - [Socio-historical Context and Impact Report](data_deliverable/reports/social_impact_report)
+  - [Tech Report](data_report/README.md)
 
 ## Final Deliverable ##
 

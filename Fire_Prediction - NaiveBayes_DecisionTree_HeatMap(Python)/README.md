@@ -1,7 +1,7 @@
 # Final Project Summary
 This was a final project for my data science class. We requested FEMA's NFIRS (National Fire Incident Reporting System) incident report data. We joined this data (details in data report below) with the virtualcrossing weather API based on zip code and day, to get the weather in a given location on the given day where there was a fire. We then used this joint data to see if we could predict which of the most common 3 fire types ("Vehicle", "Structural", "Natural vegetation") would ocurr on a given day. We thought the application of this knoweldge might help fire fighters more quickly prepare for different fire types depending on a day's weather.  We used a Naive Bayes model, a Decision Tree, a heat map, and seasonal bar chart in our investigation.  
 
-- A more in depth, 1 page discussion of our outcomes can be found here: [Outcomes Deliverable](final_deliverable/poster/DS_Final_Project_one_page_summary.pdf)
+- A more in depth, 1 page discussion of our outcomes can be found here: [Outcomes](final_deliverable/poster/DS_Final_Project_one_page_summary.pdf)
 
 - The folder with our code (complete with a readme including decision decisions and run instructions) can be found here: [Code Repo](final_deliverable/code). 
 

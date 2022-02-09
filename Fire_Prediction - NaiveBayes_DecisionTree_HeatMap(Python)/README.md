@@ -1,5 +1,5 @@
 # Final Project
-This is the final project's master repo! Please use the following shortcut links to access the different components of the project.
+This way a final project for my data science class
 
 ## Data Deliverable ##
 

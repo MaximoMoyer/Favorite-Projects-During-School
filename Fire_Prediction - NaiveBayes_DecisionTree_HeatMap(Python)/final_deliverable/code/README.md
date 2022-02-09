@@ -1,5 +1,5 @@
 # Code README
-This is where you can document your design decisions, known bugs, and instructions to run your code.
+Below are in depth design decisiong and documentation on how to run any of the above code
 
 
 #### Decision Tree ####

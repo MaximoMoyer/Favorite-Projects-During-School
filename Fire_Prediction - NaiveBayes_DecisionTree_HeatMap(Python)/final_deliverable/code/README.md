@@ -1,5 +1,5 @@
 # Code README
-Below are in depth design decisions and documentation on how to run any of the above code. Note that I have uploaded a sample of all our joine data, "weather_sample - weather_sample.csv" rather than the full file (previously comb.csv) to make it easier for anyone to download and run without having to waitto download a huge file :). So, results from running this shorter snippet of the data will likley be different that ours due to randomness.
+Below are in depth design decisions and instructions on how to run any of the above code. Note that I have uploaded a sample of all our joine data, "weather_sample - weather_sample.csv" rather than the full file (previously comb.csv) to make it easier for anyone to download and run without having to waitto download a huge file :). So, results from running this shorter snippet of the data will likley be different that ours due to randomness.
 
 
 #### Decision Tree ####

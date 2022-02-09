@@ -3,7 +3,7 @@ This was a final project for my data science class. We requested FEMA's NFIRS (N
 
 - A more in depth, 1 page discussion of our outcomes can be found here: [Outcomes](final_deliverable/poster/DS_Final_Project_one_page_summary.pdf)
 
-- The folder with our code (complete with a readme including design decisions and run instructions) can be found here: [Code Repo](final_deliverable/code). 
+- The folder with our code (complete with a readme including design decisions and run instructions) can be found here: [Code Repo](final_deliverable/code)
 
 - A report on how we collected and joined our data, alongside its shortcomings can be found here: [Data Report](data_report/README.md)
 

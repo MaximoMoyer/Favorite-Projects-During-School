@@ -7,6 +7,8 @@ This was a final project for my data science class. We requested FEMA's NFIRS (N
 
 - A report on how we collected and joined our data, alongside its shortcomings can be found here: [Data Report](data_report/README.md)
 
+- A presentation of our poster (below) can be found here: [Presentation] (https://youtu.be/blUu6flG1EI)
+
 ## Visual Deliverables ##
 
 - #### Poster ####

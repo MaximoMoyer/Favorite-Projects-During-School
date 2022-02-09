@@ -1,5 +1,5 @@
 # Final Project
-This way a final project for my data science class
+This was a final project for my data science class
 
 ## Data Deliverable ##
 

@@ -1,0 +1,38 @@
+.header {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    color: rgb(200,50,0);
+}
+
+.header > h3, h5 {
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* Include any custom CSS styling here! */
+
+.btn1{
+	background-color: rgb(250,60,60,.4);
+	position: relative;
+  	left: 19px;
+  	top: -750px;
+  	font-size: 11px;
+
+	}
+
+.btn2{
+	background-color: rgb(250,60,60,.4);
+	position: relative;
+  	left: 23px;
+  	top: -750px;
+  	font-size: 11px;
+	} 
+
+.btn3{
+	background-color: rgb(250,60,60,.4);
+	position: relative;
+  	left: 26px ;
+  	top: -750px;
+  	font-size: 11px;
+	}

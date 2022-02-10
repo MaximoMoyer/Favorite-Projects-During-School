@@ -16,7 +16,7 @@ then take in the saved node embeddings and learn to forecast transactions betwee
 
 - Paper impelemented here: Paper
 
-# The materials below are ordered in increasing level of detail that is provided into how our code works #
+### The materials below are ordered in increasing level of detail that is provided into how our code works ###
 
 - A short movie (with slighlty blurry resolution) that voices over a 2 minute project description can be found here: Movie
 

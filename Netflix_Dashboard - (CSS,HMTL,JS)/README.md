@@ -17,7 +17,7 @@ This project took real netflix data from Kaggle, and created an dashboard using 
  
 1) A toggle-able barchart showing Netflix TV Show, Movie, or TV show and movie title counts by genre - this chart is overlayed with a box plot.
 
-2) A Scatterplot displaying the average duration of netflix movies by realease year. This has a hover over function showing how many movies made in a given year are on netflix (helps indicate why some years are outliers), the exact average duartion for that year, and where the given data point's average duartion falls among all years (i.e. 1/70 would be the year with movies that had the longest average duration).
+2) A scatterplot displaying the average duration of Netflix movies by release year. This chart has a hover over function showing how many movies made in a given year are on netflix (helps indicate why some years are outliers), the exact average duartion for that year, and where the given data point's average duartion falls among all years (i.e. 1/70 would be the year with movies that had the longest average duration).
 
 3) A lolliop chart showing the 21 most common director acting pairings on Netflix.
 

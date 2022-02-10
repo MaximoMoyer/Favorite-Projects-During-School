@@ -1,5 +1,7 @@
 # Summary #
 
+This project took real netflix data from Kaggle, and created an dashboard using HTML, CSS, and Javascript.
+
 ## Viewing Instructions ##
 
 1) Download code
@@ -10,7 +12,6 @@
 
 4) Launch "http://localhost:8000" in **Google Chrome**. If done on safari, the dashboard has some odd spacing issues (but is still viewable)
 
-This project took real netflix data from Kaggle, and created an dashboard using HTML, CSS, and Javascript.
 
 ## The Dashboard contains: ##
  

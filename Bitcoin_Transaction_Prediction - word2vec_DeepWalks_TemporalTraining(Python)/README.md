@@ -14,7 +14,7 @@ then take in the saved node embeddings and learn to forecast transactions betwee
 
 ## Materials ##
 
-- Paper impelemented here: Paper(Media/bitcoin_paper.pdf)
+- Paper impelemented here: Paper(/Media/bitcoin_paper.pdf)
 
 ### The materials below are ordered in increasing level of detail they provide into our project###
 

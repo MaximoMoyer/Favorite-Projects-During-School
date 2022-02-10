@@ -21,7 +21,7 @@ This project took real netflix data from Kaggle, and created an dashboard using 
 
 3) A lolliop chart showing the 21 most common director acting pairings on Netflix.
 
-4) In depth discussion on the data, choice of visualizes, and conclusions.
+4) In depth discussion on the data, choice of visualizes, and conclusions. (At the bottom of the dashboard)
 
 
 

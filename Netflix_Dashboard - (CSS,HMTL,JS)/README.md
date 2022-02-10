@@ -1,4 +1,4 @@
-#Summary#
+# Summary #
 
 ## Viewing Instructions ##
 
@@ -12,7 +12,7 @@
 
 This project took real netflix data from Kaggle, and created an dashboard using HTML, CSS, and Javascript.
 
-The Dashboard contains: 
+## The Dashboard contains: ##
  
 1) A toggle-able barchart showing Netflix TV Show, Movie, or TV show and movie title counts by genre - this chart is overlayed with a box plot.
 

@@ -1,29 +1,27 @@
-# MyProjects
+#Summary#
 
-This is a repository that shows a small selection of my ML, Web dDvelopment/scraping, and multi-class Java projects. Please note that I was unable to access my largest scale, multi-class Java projects (Pacman, DoodleJump, Tetris)as they were on a previous, broken computer.
+## Viewing Instructions ##
 
-## Projects in this repository
+1) Download code
 
-### ML
+2) Navigate to where code is stored in you local directory
 
-**Bitcoin_Transaction_Prediction - word2vec_DeepWalks_TemporalTraining(Python)**
+3) Run php -S localhost:8000 in terminal
 
-**Cancer_Prediction - Message_Passing_NN_On_Graphs(Python)**
+4) Launch "http://localhost:8000" in **Google Chrome**. If done on safari, the dashboard have some odd spacing issues (but is still viewable)
 
-**Machine_Translation - LSTM&RNN(Python)**
+This project took real netflix data from Kaggle, and created an dashboard using HTML, CSS, and Javascript.
 
-**Language_Model - Trigram&RNN(Python)**
+The Dashboard contains: 
+ 
+1) A toggle-able barchart showing Netflix TV Show, Movie, or TV show and movie title counts by genre - this chart is overlayed with a box plot.
 
-**Robot_Balance_Pole - Policy_Gradient_RL(Python)**
+2) A Scatterplot displaying the average duration of netflix movies by realease year. This has a hover over function showing how many movies made in a given year are on netflix (helps indicate why some years are outliers), the exact average duartion for that year, and where the given data point's average duartion falls among all years (i.e. 1/70 would be the year with movies that had the longest average duration).
 
-### Web Dev/scraping
+3) A lolliop chart showing the 21 most common director acting pairings on Netflix.
 
-**Stock_DataBase_Maker - Web_Scraping&DataBase_Creation(Python/SQL)**
+4) In depth discussion on the data, choice of visualizes, and conclusions.
 
-**Netflix_Dashboard - (CSS,HTML,JS)**
-
-### Multi-Class Java:
-**Graph - PageRank/PrimJarnik(Java)**
 
 
 

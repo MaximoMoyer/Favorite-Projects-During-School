@@ -4,7 +4,7 @@
 
 1) Download code
 
-2) Navigate to where code is stored in you local directory
+2) Navigate to where code is stored in your local directory
 
 3) Run php -S localhost:8000 in terminal
 

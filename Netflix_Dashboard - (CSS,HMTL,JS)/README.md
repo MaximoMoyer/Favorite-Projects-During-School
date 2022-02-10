@@ -2,7 +2,7 @@
 
 This project took real netflix data from Kaggle, and created an dashboard using HTML, CSS, and Javascript.
 
-## Viewing Instructions ##
+## Viewing Instructions: ##
 
 1) Download code
 

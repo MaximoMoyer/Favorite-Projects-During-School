@@ -14,14 +14,14 @@ then take in the saved node embeddings and learn to forecast transactions betwee
 
 ## Materials ##
 
-- Paper impelemented here: Paper
+- Paper impelemented here: Paper(Media/bitcoin_paper.pdf)
 
-### The materials below are ordered in increasing level of detail that is provided into how our code works ###
+### The materials below are ordered in increasing level of detail they provide into our project###
 
-- A short movie (with slighlty blurry resolution) that voices over a 2 minute project description can be found here: Movie
+- A short movie (with slighlty blurry resolution) that voices over a 2 minute project description can be found here: Movie(Media/Crypto_Predicto.mov)
 
-- A one page slides of the project can be found here: Summary
+- A one page slides of the project can be found here: Summary(Media/Slide.pdf)
 
-- (recommended) An in depth report of our outcomes can be found here: Report
+- (recommended) An in depth report of our outcomes can be found here: Report(Media/Report.pdf)
 
 

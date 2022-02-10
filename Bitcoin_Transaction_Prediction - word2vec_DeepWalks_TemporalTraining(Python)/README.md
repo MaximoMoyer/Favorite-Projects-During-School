@@ -11,3 +11,17 @@ data into weighted edges format.
 -We then used Node2vec.py to learn and output embeddings and graph structures for each of our
 10 graphs. These were stored in Data/Node2Vec_outputs. Predict.py contains the model which can
 then take in the saved node embeddings and learn to forecast transactions between 2 accounts.
+
+## Materials ##
+
+- Paper impelemented here: Paper
+
+# The materials below are ordered in increasing level of detail that is provided into how our code works #
+
+- A short movie (with slighlty blurry resolution) that voices over a 2 minute project description can be found here: Movie
+
+- A one page slides of the project can be found here: Summary
+
+- (recommended) An in depth report of our outcomes can be found here: Report
+
+

@@ -12,6 +12,8 @@ This is a repository that shows a small selection of my ML, Web Development/scra
 
 **Bitcoin_Transaction_Prediction - word2vec_DeepWalks_TemporalTraining(Python)**
 
+- Implimentation of a Georgia Tech paper: structured data classification problem, using blockchain data to build transaction networks and account embeddings and then forecasting transactions between accounts.
+
 **Cancer_Prediction - Message_Passing_NN_On_Graphs(Python)**
 
 **Machine_Translation - LSTM&RNN(Python)**

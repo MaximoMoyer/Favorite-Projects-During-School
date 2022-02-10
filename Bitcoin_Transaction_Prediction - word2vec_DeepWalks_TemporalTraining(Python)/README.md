@@ -9,7 +9,7 @@ getfirst100k.py on blockchain data from https://senseable2015-6.mit.edu/bitcoin/
 data into weighted edges format.
 
 -We then used Node2vec.py to learn and output embeddings and graph structures for each of our
-10 graphs. These were stored in Data/Node2Vec_outputs. Predict.py contains the model which can
+10 later graphs (Note: only uploaded graphs from t = 0 to t = 5 to the repository as graphs past t = 5 became too large). These were stored in Data/Node2Vec_outputs. Predict.py contains the model which can
 then take in the saved node embeddings and learn to forecast transactions between 2 accounts.
 
 ## Materials ##

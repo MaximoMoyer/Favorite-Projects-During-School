@@ -15,22 +15,28 @@ This is a repository that shows a small selection of my ML, Web Development/scra
 - Implimentation of a Georgia Tech paper: structured data classification problem, using blockchain data to build transaction networks and account embeddings and then forecasting transactions between accounts.
 
 **Cancer_Prediction - Message_Passing_NN_On_Graphs(Python)**
+- Under Construction
 
 **Machine_Translation - LSTM&RNN(Python)**
+- Under Construction
 
 **Language_Model - Trigram&RNN(Python)**
+- Under Construction
 
 **Robot_Balance_Pole - Policy_Gradient_RL(Python)**
+- Under Construction
 
 ### Web Dev/scraping
 
 **Stock_DataBase_Maker - Web_Scraping&DataBase_Creation(Python/SQL)**
+- Under Construction
 
 **Netflix_Dashboard - (CSS,HTML,JS)**
+- Under Construction
 
 ### Multi-Class Java:
 **Graph - PageRank/PrimJarnik(Java)**
-
+- Under Construction
 
 
 

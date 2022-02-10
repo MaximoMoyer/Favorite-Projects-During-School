@@ -1,6 +1,6 @@
 # Summary #
 
-This project took real netflix data from Kaggle, and created an interactive dashboard using HTML, CSS, and Javascript.
+This project took real Netflix data from Kaggle, and created an interactive dashboard using HTML, CSS, and Javascript.
 
 ## Viewing Instructions: ##
 

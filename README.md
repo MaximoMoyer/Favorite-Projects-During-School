@@ -32,7 +32,7 @@ This is a repository that shows a small selection of my ML, Web Development/scra
 - Under Construction
 
 **Netflix_Dashboard - (CSS,HTML,JS)**
-- Under Construction
+- This project took real Netflix data from Kaggle, and created an interactive dashboard using HTML, CSS, and Javascript.
 
 ### Multi-Class Java:
 **Graph - PageRank/PrimJarnik(Java)**

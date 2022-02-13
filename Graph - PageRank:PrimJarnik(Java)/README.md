@@ -1,46 +1,4 @@
-Conceptual Question: In order to cope with the problem of websites that spread 
-
-misinformation I would conduct the page rank algorithm as is currently implemented (taking 
-
-sinks into account), and I would implement one helper method.  I would first run the page rank 
-
-algorithm as is, looping over the vertices and initializing the page rank to be 1/v, calculating 
-
-new page rank based on incoming edges, and then handling sinks using my handleSinks 
-
-method.  However, when still within the while loop, I would then call the helper method just 
-
-after I call this.handleSinks.  This helper method, let’s call it removeBlacklist, would start by 
-
-creating a local variable double called distribute.  I would set distribute equal to 0.  I would 
-
-then make two lists. I would fill one list with whichever websites were deemed as having false 
-
-information, and call it blackList, and I would fill the other list with all vertices from non false 
-
-websites and call it goodList.  Then, I would loop over every vertex in blackList and add the 
-
-pageRank of each vertex to distribute, then set the pageRank of that vertex equal to 0.  I 
-
-would then divide the double distribute by the number of vertices in goodList.  Finally, I would 
-
-loop over each of the vertices in goodList and add distribute to each one.  This would ensure 
-
-that every vertex that is blackListed would have 0 pageRank at the end of each round, and 
-
-equally distribute any pageRank they gained in a given round to all credible websites.  I 
-
-considered not setting the blackListed vertices equal to 0, and instead letting them share in 
-
-the distribution of the blackListed pageRank, but it seemed to me that any other websites 
-
-linked to from a blackListed website, did not deserve a bump in pageRank as such website 
-
-are probably more likely to spread false information themselves.   This was the rationale to 
-
-setting the blackListed websites equal to 0 each round, and only adding distribute to non 
-
-blackListed websites.
+###Summary###
 
 
 

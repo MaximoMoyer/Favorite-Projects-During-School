@@ -43,9 +43,6 @@ for row in rows:
 
 
 
-# # TODO: Save data below.
-
-#TODO: Use IEX trading API to collect sector and news data.
 closing = []
 delIndex = []
 for k in range(len(symbols)):
@@ -93,7 +90,7 @@ c = conn.cursor()
 c.execute('DROP TABLE IF EXISTS "companies";')
 c.execute('DROP TABLE IF EXISTS "quotes";')
 
-#TODO: Create tables in the database and add data to it. REMEMBER TO COMMIT
+#Create tables in the database and add data to it.
 create_companies_table_command = '''
 CREATE TABLE Companies (
 	symbol text NOT NULL PRIMARY KEY,

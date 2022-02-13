@@ -1,5 +1,9 @@
-###Summary###
+### Summary ###
 
+This project creates a graph data strcuture from scratch (AdjacencyMatrixGraph.java and MyDecorator.java) and implements the pagerank (elementary search) algorithm and PrimJarnik (MST) algorithm on the graph. Short descriptions of the classes are written below.
+
+
+## Class Descriptions ##
 
 
 MyPageRank: Class to find the pageRank of every Vertex.  In this class, outside of the 
@@ -62,7 +66,7 @@ then implemented all methods as asked for, and commented for clarity.
 
 
 
-MyDecorator: implemented all methods asked for using a HashMap so that the methods could 
+MyDecorator: implemented all methods using a HashMap so that the methods could 
 
 run in 0(1) time.  Thus, everytime a decorator is instantiated, you pass in a vertex, and a key 
 

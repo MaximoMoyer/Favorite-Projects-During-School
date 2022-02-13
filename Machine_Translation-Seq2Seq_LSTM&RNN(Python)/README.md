@@ -1,1 +1,5 @@
-[![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=3506976&assignment_repo_type=AssignmentRepo)
+# Summary #
+Model to translate French sentences into English. There are two Seq2Seq models impelemented - an LSTM and RNN. Both models utilize the encoder/decoder approach. This means, we use embeddings of a french sentence to produce a final state output from either an RNN or LSTM encoder. Then, we feed this into the decoder LSTM/RNN as the inital hidden state. Armed with this context, the decoder then feeds the outputted word, back into itself until sentence length is reached. The Decoder part of this model is essentially the same as the language modeling assignment - after the first word (since each model has full sentence context from the initial hidden state) the decoder is simply predicting the most likely next word.
+
+## Running Instructions ##
+Download all files and run "python assignment _" Where you fill in the blank with "RNN" or "TRANSFORMER". 

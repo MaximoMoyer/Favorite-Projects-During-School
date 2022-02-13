@@ -29,7 +29,7 @@ This is a repository that shows a small selection of my ML, Web Development/scra
 ### Web Dev/scraping
 
 **Stock_DataBase_Maker - Web_Scraping&DataBase_Creation(Python/SQL)**
-- Under Construction
+- Simple project that scrapes Yahoo Finance and pulls data from the IEX trading API to get information on various stocks. Also uses SQL to get various cuts of this data.
 
 **Netflix_Dashboard - (CSS,HTML,JS)**
 - This project took real Netflix data from Kaggle, and created an interactive dashboard using HTML, CSS, and Javascript.

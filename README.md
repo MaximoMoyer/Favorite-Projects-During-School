@@ -1,6 +1,6 @@
 # MyProjects
 
-This is a repository that shows a small selection of my ML, Web Development/scraping, and multi-class Java projects.
+This is a repository that shows a small selection of my ML, Web Development/scraping, and multi-class Java projects. If I had to chose one project for you to click on it would be Bitcoin_Transaction_Prediction - this was a cool one!
 
 ## Projects in this repository
 

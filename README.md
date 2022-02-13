@@ -20,7 +20,7 @@ This is a repository that shows a small selection of my ML, Web Development/scra
 **Machine_Translation - GRU&RNN(Python)**
 - Language prediction model using self made trigram and off the self RNN (GRU) model.
 
-**Language_Model - Trigram&RNN(Python)**
+**Language_Model(Encoder/Decoder) - Trigram&RNN(Python)**
 - Under Construction
 
 **Robot_Balance_Pole - Policy_Gradient_RL(Python)**

@@ -18,7 +18,7 @@ This is a repository that shows a small selection of my ML, Web Development/scra
 - Implementation of a message passing nueral network to detect cancer. The model works as follows: Creat molecules from data provided, one hot these molecules (array length 119 for each elemnt in the periodic table), lift one-hotted molecules (pass through dense layer), perform message passing 3x (each node sends it's lifted information to it's neighboring node, then each node collects all information passed to it). Gradient descent done using classic loss calculation - sparse categorical cross entropy, followed by gradient update.
 
 **Machine_Translation - GRU&RNN(Python)**
-- Language prediction model using self made RNN (trigram) and off the self GRU model.
+- Language prediction model using self made trigram and off the self RNN (GRU) model.
 
 **Language_Model - Trigram&RNN(Python)**
 - Under Construction

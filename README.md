@@ -17,10 +17,10 @@ This is a repository that shows a small selection of my ML, Web Development/scra
 **Cancer_Prediction - Message_Passing_NN_On_Graphs(Python)**
 - Implementation of a message passing nueral network to detect cancer. The model works as follows: Creat molecules from data provided, one hot these molecules (array length 119 for each elemnt in the periodic table), lift one-hotted molecules (pass through dense layer), perform message passing 3x (each node sends it's lifted information to it's neighboring node, then each node collects all information passed to it). Gradient descent done using classic loss calculation - sparse categorical cross entropy, followed by gradient update.
 
-**Machine_Translation - GRU&RNN(Python)**
+**Language_Model - Trigram&RNN(Python)**
 - Language prediction model using self made trigram and off the self RNN (GRU) model.
 
-**Language_Model-Seq2Seq_LSTM&RNN(Python)**
+**Machine_Translation-Seq2Seq_LSTM&RNN(Python)**
 - Under Construction
 
 **Robot_Balance_Pole - Policy_Gradient_RL(Python)**

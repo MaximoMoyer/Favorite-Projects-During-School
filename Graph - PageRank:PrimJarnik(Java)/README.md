@@ -1,4 +1,4 @@
-### Summary ###
+# Summary #
 
 This project creates a graph data strcuture from scratch (AdjacencyMatrixGraph.java and MyDecorator.java) and implements the pagerank (elementary search) algorithm and PrimJarnik (MST) algorithm on the graph. Short descriptions of the classes are written below.
 

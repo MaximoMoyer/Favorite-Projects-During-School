@@ -18,10 +18,10 @@ This is a repository that shows a small selection of my ML, Web Development/scra
 - Implementation of a message passing nueral network to detect cancer. The model works as follows: Creat molecules from data provided, one hot these molecules (array length 119 for each elemnt in the periodic table), lift one-hotted molecules (pass through dense layer), perform message passing 3x (each node sends it's lifted information to it's neighboring node, then each node collects all information passed to it). Gradient descent done using classic loss calculation - sparse categorical cross entropy, followed by gradient update.
 
 **Language_Model - Trigram&RNN(Python)**
-- Language prediction model using self made trigram and off the self RNN (GRU) model.
+- Language prediction model using self made trigram and off-the-shelf RNN (GRU) model.
 
 **Machine_Translation-Seq2Seq_LSTM&RNN(Python)**
-- Under Construction
+- Model to translate French sentences into English. There are two Seq2Seq models impelemented - an LSTM and RNN. Both models utilize the encoder/decoder approach. This means, we use embeddings of a french sentence to produce a final state output from either an RNN or LSTM encoder. Then, we feed this into the decoder LSTM/RNN as the inital hidden state. Armed with this context, the decoder then feeds the outputted word, back into itself until sentence length is reached. The Decoder part of this model is essentially the same as the RNN section of the language modeling project - after the first word (since each model has full sentence context from the initial hidden state) the decoder is simply predicting the most likely next word.
 
 **Robot_Balance_Pole - Policy_Gradient_RL(Python)**
 - This is a deep reinforcement learning project that teaches a robot to balance a pole. It uses two (very similair methods) of reinforcment learning. Both models follow the same structure - generate probabilities for the robot's step given a state, chose the next action probablistically, calculate the reward for this step. The model then discounts these rewards using a classic discount factor methodology. The model then calculates loss - herein lies the difference between the two methods.

@@ -24,7 +24,7 @@ This is a repository that shows a small selection of my ML, Web Development/scra
 - Under Construction
 
 **Robot_Balance_Pole - Policy_Gradient_RL(Python)**
-- Under Construction
+- This is a deep reinforcement learning project that teaches a robot to balance a pole. It uses two (very similair methods) of reinforcment learning. Both models follow the same structure - generate probabilities for the robot's step given a state, chose the next action probablistically, calculate the reward for this step. The model then discounts these rewards using a classic discount factor methodology. The model then calculates loss - herein lies the difference between the two methods.
 
 ### Web Dev/scraping
 

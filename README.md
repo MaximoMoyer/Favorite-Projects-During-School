@@ -38,7 +38,7 @@ This is a repository that shows a small selection of my ML, Web Development/scra
 - Sends texts to your friends with their chores for the week
 
 ### Multi-Class Java ###:
-**Graph - PageRank/PrimJarnik(Java)**
+**Graph - PageRank/PrimJarnik**
 - This project creates a graph data strcuture from scratch and implements the pagerank (elementary search) algorithm and PrimJarnik (MST) algorithm on the graph.
 
 

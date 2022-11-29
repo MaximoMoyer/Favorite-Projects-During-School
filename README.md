@@ -35,7 +35,7 @@ This is a repository that shows a small selection of my ML, Web Development/scra
 - This project took real Netflix data from Kaggle, and created an interactive dashboard using HTML, CSS, and Javascript.
 
 **ChoreBot**
-- Sends texts to your friends with their chores for the week
+- Using Twilio and google Sheets API, sends texts to your friends with their chores for the week
 
 ### Multi-Class Java:
 **Graph - PageRank/PrimJarnik**

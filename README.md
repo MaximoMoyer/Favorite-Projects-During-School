@@ -26,7 +26,7 @@ This is a repository that shows a small selection of my ML, Web Development/scra
 **Robot_Balance_Pole - Policy_Gradient_RL**
 - This is a deep reinforcement learning project that teaches a robot to balance a pole. It uses two (very similair methods) of reinforcment learning. Both models follow the same structure - generate probabilities for the robot's step given a state, chose the next action probablistically, calculate the reward for this step. The model then discounts these rewards using a classic discount factor methodology. The model then calculates loss - herein lies the difference between the two methods.
 
-### Web Dev/scraping
+### Web Dev/scraping 
 
 **Stock_DataBase_Maker - Web_Scraping&DataBase_Creation**
 - Simple project that scrapes Yahoo Finance and pulls data from the IEX trading API to get information on various stocks. Also uses SQL to get various cuts of this data.
@@ -37,7 +37,7 @@ This is a repository that shows a small selection of my ML, Web Development/scra
 **ChoreBot**
 - Sends texts to your friends with their chores for the week
 
-### Multi-Class Java ###:
+### Multi-Class Java:
 **Graph - PageRank/PrimJarnik**
 - This project creates a graph data strcuture from scratch and implements the pagerank (elementary search) algorithm and PrimJarnik (MST) algorithm on the graph.
 

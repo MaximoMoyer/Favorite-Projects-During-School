@@ -34,7 +34,7 @@ This is a repository that shows a small selection of my ML, Web Development/scra
 **Netflix_Dashboard - (CSS,HTML,JS)**
 - This project took real Netflix data from Kaggle, and created an interactive dashboard using HTML, CSS, and Javascript.
 
-**ChoreBot**
+**ChoreBot - (Python)**
 - Sends texts to your friends with their chores for the week
 
 ### Multi-Class Java:

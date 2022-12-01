@@ -29,7 +29,7 @@ def send_message():
                 body = body + ('\n'+'-' + message_dict[keys])
         message = client.messages.create(  
                                       messaging_service_sid='MG3d6eac9744d0122ffdd777cc422ec34f', 
-                                      body="Christian, how is your weiner?",      
+                                      body= body,      
                                       to= Numbers[number]
                                   ) 
 

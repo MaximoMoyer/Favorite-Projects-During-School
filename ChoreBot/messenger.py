@@ -5,8 +5,8 @@ from scraper import scraper
 import schedule
 
  
-account_sid = 'AC45a59ca9849a848062cfd119f5c389f4' 
-auth_token = '5ad123458fec5ff00484db3bd3766203' 
+account_sid = [fill me in] 
+auth_token = [fill me in]
 client = Client(account_sid, auth_token) 
  
 myScraper = scraper('Apartments','Chores')

@@ -1,4 +1,4 @@
-package graph;
+import graph;
 
 import static support.graph.Constants.MAX_VERTICES;
 
@@ -68,7 +68,6 @@ public class AdjacencyMatrixGraph<V> implements Graph<V> {
 		_edges = new HashSet<CS16Edge<V>>();
 		_unused = new Stack<Integer>();
 		_numVertices = 0;
-
 	}
 
 	// Returns an iterator holding all the Vertices of the graph in O(1)

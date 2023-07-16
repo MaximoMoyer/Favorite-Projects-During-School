@@ -148,8 +148,8 @@
             .text("Avg Duration (min)");
 
       
-
-})
+}
+)
 
 
 

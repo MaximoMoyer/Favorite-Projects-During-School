@@ -1,7 +1,7 @@
 import os
 import requests
-import pdb
 import base64
+import logging
 
 
 def produce_image(prompt):
@@ -36,16 +36,17 @@ def produce_image(prompt):
             "steps": 30,
         },
     )
-    
+
     data = response.json()
+    logging.basicConfig(data)
     if response.status_code == 400:
         if data["message"] == 'Invalid prompts detected':
-            return 'Invalid prompt, please try, more appropriately, again.'
+            return "Invalid prompt, please try, more appropriately, again."
         else:
             return "Something went wrong, we aren't quite sure why, please try again."
     else:
         image = data["artifacts"][0]["base64"]
-        with open(f"./static/profile_image.png", "wb") as f:
+        with open(f"/home/MaximoMoyer/PersonalProjects/Personal_Website//static/profile_image.png", "wb") as f:
             f.write(base64.b64decode(image))
-        return 'success'
+        return "success"
 

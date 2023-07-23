@@ -2,6 +2,7 @@ from flask import Flask, redirect, url_for, request, session, render_template
 import Profile_Generation as PG
 
 app = Flask(__name__)
+app.secret_key = 'mysecretkey'
 
 
 @app.route('/')
@@ -44,9 +45,4 @@ def reading():
 
 @app.route('/chore_bot')
 def chore_bot():
-	return render_template('chorebot.html') 
-
-
-if __name__ == '__main__':
-	app.secret_key = 'mysecretkey'
-	app.run(debug=True)
+	return render_template('chorebot.html')

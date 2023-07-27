@@ -1,4 +1,4 @@
-#https://github.com/openai/CLIP
+# #https://github.com/openai/CLIP
 import torch
 import clip
 from PIL import Image
@@ -9,7 +9,7 @@ class Joint_Model:
     def __init__(self):
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
         self.model, self.preprocess = clip.load("ViT-B/32", device=self.device)
-    
+
     def embedd_images(self,artists):
         for artist in artists:
             image_count = 0
@@ -27,7 +27,7 @@ class Joint_Model:
                 print(image_count)
             image_features = image_features / image_count
             torch.save(image_features, 'Artists/Embeddings/' + artist + '.pt')
-    
+
     def check_similairity(self,sentence, artists):
         text = clip.tokenize([sentence]).to(self.device)
         cos = torch.nn.CosineSimilarity()

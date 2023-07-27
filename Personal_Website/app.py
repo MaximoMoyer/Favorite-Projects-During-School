@@ -5,6 +5,7 @@ import os
 import shutil
 
 app = Flask(__name__)
+app.secret_key = 'mysecretkey'
 
 #defining function to run on shutdown
 		

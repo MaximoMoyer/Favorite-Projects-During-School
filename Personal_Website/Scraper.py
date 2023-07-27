@@ -1,4 +1,4 @@
-from bs4 import BeautifulSoup 
+from bs4 import BeautifulSoup
 import requests
 import os
 import shutil
@@ -20,10 +20,10 @@ class Scraper:
                 'Warhol':'https://magazine.artland.com/andy-warhol-portraits-a-definitive-guide/',
                 'LeBrun':'https://www.theartstory.org/artist/vigee-le-brun-elisabeth-louise/'
                 }
-        
+
     def return_artists(self):
         return self.artists.keys()
-    
+
     def scrape_all(self):
         for artist in self.artists.keys():
             func_name = 'self.' + artist + '_Scraper'
@@ -118,7 +118,6 @@ class Scraper:
         for img in img_tags:
             print('scraping')
             img_url = img.get('src')
-            print(img_url)
             if img_url is not None and 'products' in img_url and img_url.startswith('//www'):
                 print('inside')
                 write_count += 1
@@ -185,7 +184,7 @@ class Scraper:
                     break
                 with open(filename, 'wb') as f:
                     f.write(requests.get(img_url).content)
-        
+
 
     def Warhol_Scraper(self,url):
         response = requests.get(url)
@@ -231,6 +230,6 @@ def main():
 
 if __name__ == '__main__':
 	main()
-        
+
 
 

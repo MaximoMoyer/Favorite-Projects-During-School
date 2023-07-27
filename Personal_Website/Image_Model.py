@@ -10,7 +10,7 @@ def produce_image(prompt,sess_id):
     api_host = os.getenv('API_HOST')
     url = f'{api_host}/v1/user/account'
     #to delete
-    os.environ["STABILITY_API_KEY"] = ""
+    os.environ["STABILITY_API_KEY"] = "sk-RfqssbMglz2dGix49v8qKomcAzv41p6a0J1SAuNqAlU5gvjx"
     api_key = os.getenv("STABILITY_API_KEY")
 
     engine_id = "stable-diffusion-v1-5"
@@ -36,7 +36,7 @@ def produce_image(prompt,sess_id):
             "steps": 30,
         },
     )
-    print(response)
+
     data = response.json()
     if response.status_code == 400:
         if data["message"] == 'Invalid prompts detected':

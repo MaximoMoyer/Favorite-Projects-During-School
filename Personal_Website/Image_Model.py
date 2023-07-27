@@ -4,7 +4,7 @@ import pdb
 import base64
 
 
-def produce_image(prompt):
+def produce_image(prompt,sess_id):
     #to delete
     os.environ["API_HOST"] = "https://api.stability.ai"
     api_host = os.getenv('API_HOST')
@@ -36,7 +36,7 @@ def produce_image(prompt):
             "steps": 30,
         },
     )
-    
+    print(response)
     data = response.json()
     if response.status_code == 400:
         if data["message"] == 'Invalid prompts detected':
@@ -45,7 +45,9 @@ def produce_image(prompt):
             return "Something went wrong, we aren't quite sure why, please try again."
     else:
         image = data["artifacts"][0]["base64"]
-        with open(f"./static/profile_image.png", "wb") as f:
+        if not os.path.exists(f"./static/{sess_id}/images"):
+            os.makedirs(f"./static/{sess_id}/images")
+        with open(f"./static/{sess_id}/images/profile_image.png", "wb") as f:
             f.write(base64.b64decode(image))
         return 'success'
 

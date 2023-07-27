@@ -30,10 +30,19 @@
   <script src="js/webflow.js" type="text/javascript"></script>
   <div  id = "best_artist" class = "best_artist"> Out of all the famous artists in the system "{{sentence}}" would be best painted by {{ similair_artist }}.
    </div>
-   <img src= "../static/profile_image.png" class  = "image_landing"/>  
+   <img src= "../static/{{sess_id}}/images/profile_image.png" class  = "image_landing"/>  
   <div id = "final_sentence" class ="final_sentence" >
   So here is your profile -  {{sentence}} in the style of {{similair_artist}}:
   <div  id = {{image_status}} class = "status"> 
+
+  <body onbeforeunload= "delete_all()"" > </body>
+
+  <script>
+    function delete_all() {
+      fetch('/delete')
+    };
+  </script>
+
   </div>
 
   <script>

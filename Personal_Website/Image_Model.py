@@ -9,7 +9,7 @@ def produce_image(prompt,sess_id):
     os.environ["API_HOST"] = "https://api.stability.ai"
     api_host = os.getenv('API_HOST')
     url = f'{api_host}/v1/user/account'
-    os.environ["STABILITY_API_KEY"] = "sk-RfqssbMglz2dGix49v8qKomcAzv41p6a0J1SAuNqAlU5gvjx"
+    os.environ["STABILITY_API_KEY"] = ""
     api_key = os.getenv("STABILITY_API_KEY")
 
     engine_id = "stable-diffusion-v1-5"

@@ -116,8 +116,10 @@ class Scraper:
         img_tags  = soup.find_all("img")
         write_count = -1
         for img in img_tags:
+            print('scraping')
             img_url = img.get('src')
             if img_url is not None and 'products' in img_url and img_url.startswith('//www'):
+                print('inside')
                 write_count += 1
                 filename = 'Artists/VanGogh/image_' + str(write_count)
                 img_url = 'https:' + img_url

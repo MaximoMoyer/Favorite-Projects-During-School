@@ -41,9 +41,9 @@ class Profile_Generator():
         most_similair = self.joint_model.check_similairity(sentence, self.artists)
         return most_similair
 
-    def get_image(self,sentence,most_similair):
+    def get_image(self,sentence,most_similair,sess_id):
         prompt = sentence + 'painted by ' + most_similair
-        image_outcome = Image_Model.produce_image(prompt)
+        image_outcome = Image_Model.produce_image(prompt,sess_id)
         return image_outcome
         
 

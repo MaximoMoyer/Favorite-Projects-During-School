@@ -4,12 +4,11 @@ import base64
 import logging
 
 
-def produce_image(prompt):
+def produce_image(prompt,sess_id):
     #to delete
     os.environ["API_HOST"] = "https://api.stability.ai"
     api_host = os.getenv('API_HOST')
     url = f'{api_host}/v1/user/account'
-    #to delete
     os.environ["STABILITY_API_KEY"] = "sk-RfqssbMglz2dGix49v8qKomcAzv41p6a0J1SAuNqAlU5gvjx"
     api_key = os.getenv("STABILITY_API_KEY")
 
@@ -46,7 +45,9 @@ def produce_image(prompt):
             return "Something went wrong, we aren't quite sure why, please try again."
     else:
         image = data["artifacts"][0]["base64"]
-        with open(f"/home/MaximoMoyer/PersonalProjects/Personal_Website//static/profile_image.png", "wb") as f:
+        if not os.path.exists(f"./static/{sess_id}/images"):
+            os.makedirs(f"./static/{sess_id}/images")
+        with open(f"./static/{sess_id}/images/profile_image.png", "wb") as f:
             f.write(base64.b64decode(image))
-        return "success"
+        return 'success'
 

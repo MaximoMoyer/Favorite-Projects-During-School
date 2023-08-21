@@ -1,6 +1,6 @@
 # MyProjects
 
-This is a repository that shows a small selection of my ML, Web Development/scraping, and multi-class Java projects. If I had to chose one project for you to click on it would be Bitcoin_Transaction_Prediction or ChoreBot!
+This is a repository that shows a small selection of my favorite ML, Web Development/scraping, and multi-class Java projects from school. Please note these projects all had some code provided, though the majority of each project was developed by me.
 
 ## Projects in this repository
 

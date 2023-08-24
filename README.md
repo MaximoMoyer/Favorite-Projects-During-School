@@ -1,6 +1,6 @@
 # MyProjects
 
-This is a repository that shows a small selection of my favorite ML, Web Development/scraping, and multi-class Java projects from school. Please note these projects all had some code provided, though the majority of each project was developed by me.
+This is a repository that shows a small selection of my favorite ML, Web Development/scraping, and multi-class Java projects. Please note some of these projects have code not written by me, though the majority of each project I did develop.
 
 ## Projects in this repository
 

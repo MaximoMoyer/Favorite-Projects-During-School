@@ -1,6 +1,6 @@
 # MyProjects
 
-This is a repository that shows a small selection of my favorite ML, Web Development/scraping, and multi-class Java projects. Please note some of these projects have code not written by me, though the majority of each project I did develop.
+This is a repository that shows a small selection of my favorite ML, Web Development/scraping, and multi-class Java projects. Please note some of these projects have code not written by me, though the majority of each project I did develop. If I had to chose one project for you to investigate it would be Bitcoin_transaction_prediction. This is an implementation of a Georgia Tech paper that used deep graph learning to predict bitcoin transactions and our group outperformed the paper!
 
 ## Projects in this repository
 

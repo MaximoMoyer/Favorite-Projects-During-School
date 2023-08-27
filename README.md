@@ -1,4 +1,4 @@
-# MyProjects
+# Summary
 
  If I had to chose one project for you to check out it would be Bitcoin_Transaction_Prediction. Here, a variant of a published paper from Georgia Tech on deep graph learning was implemented to predict if two bitcoin accounts will transact given their histories and placement in the transaction graph!
 

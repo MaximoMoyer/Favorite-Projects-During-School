@@ -4,3 +4,5 @@ This is a deep reinforcement learning project that teaches a robot to balance a 
 
 ## Run instructions ##
 Simply download all the files and run "python assignment.py "_____"" (Filling in the quotes with either REINFORCE or REINFORCE_WITH_BASELINE). You will see a simulation of a pole being balanced when running, using the most recently tuned network! (This means the robot has learned well!)
+
+pip install -r requirements.txt to get all requirements!

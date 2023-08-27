@@ -1,4 +1,4 @@
-# crypto_predict
+# Summary
 Final Project for Brown Deep Learning (CS1470)
 
 Our project was a structured data classification problem, using blockchain data to build

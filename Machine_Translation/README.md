@@ -3,3 +3,4 @@ Model to translate French sentences into English. There are two Seq2Seq models i
 
 ## Running Instructions ##
 Download all files and run "python assignment _" Where you fill in the blank with "RNN" or "TRANSFORMER". 
+pip install -r requirements.txt to get all requirements!

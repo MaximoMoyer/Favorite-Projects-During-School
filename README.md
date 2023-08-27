@@ -4,9 +4,9 @@
 
 Otherwise, this is a repository that shows a small selection of my favorite ML, Web Development/scraping, and multi-class Java projects from school. Please note some of these projects have code not written by me, though the majority of each project I did develop.
 
-## Projects in this repository
+# Projects in this repository
 
-### ML
+## ML
 
 **Bitcoin_Transaction_Prediction - word2vec_DeepWalks_TemporalTraining**
 
@@ -22,24 +22,21 @@ Otherwise, this is a repository that shows a small selection of my favorite ML, 
 **Language_Model - Trigram&RNN**
 - Language prediction model using self made trigram and off-the-shelf RNN (GRU) model.
 
-**Machine_Translation-Seq2Seq_LSTM&RNN**
+**Machine_Translation - Seq2Seq_LSTM&RNN**
 - Model to translate French sentences into English. There are two Seq2Seq models impelemented - an LSTM and RNN. Both models utilize the encoder/decoder approach. This means, we use embeddings of a french sentence to produce a final state output from either an RNN or LSTM encoder. Then, we feed this into the decoder LSTM/RNN as the inital hidden state. Armed with this context, the decoder then feeds the outputted word, back into itself until sentence length is reached. The Decoder part of this model is essentially the same as the RNN section of the language modeling project - after the first word (since each model has full sentence context from the initial hidden state) the decoder is simply predicting the most likely next word.
 
 **Robot_Balance_Pole - Policy_Gradient_RL**
 - This is a deep reinforcement learning project that teaches a robot to balance a pole. It uses two (very similair methods) of reinforcment learning. Both models follow the same structure - generate probabilities for the robot's step given a state, chose the next action probablistically, calculate the reward for this step. The model then discounts these rewards using a classic discount factor methodology. The model then calculates loss - herein lies the difference between the two methods.
 
-### Web Dev/scraping 
+## Web Dev/scraping 
 
 **Stock_DataBase_Maker - Web_Scraping&DataBase_Creation**
 - Simple project that scrapes Yahoo Finance and pulls data from the IEX trading API to get information on various stocks. Also uses SQL to get various cuts of this data.
 
-**Netflix_Dashboard**
+**Netflix_Dashboar - Dynamic web dev**
 - This project took real Netflix data from Kaggle, and created an interactive dashboard using HTML, CSS, and Javascript.
 
-**ChoreBot**
-- Using Twilio and google Sheets API, sends texts to your friends with their chores for the week
-
-### Multi-Class Java:
+## Multi-Class Java:
 **Graph - PageRank/PrimJarnik**
 - This project creates a graph data strcuture from scratch and implements the pagerank (elementary search) algorithm and PrimJarnik (MST) algorithm on the graph.
 

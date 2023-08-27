@@ -1,0 +1,3 @@
+README
+
+Accuracy for first epoch is .65, hovers and or dips for few few epochs, by last training epoch (15th) accuracy is .7086

@@ -6,7 +6,8 @@ This project creates a graph data strcuture from scratch (AdjacencyMatrixGraph.j
 ## Class Descriptions ##
 
 
-MyPageRank: Class to find the pageRank of every Vertex.  In this class, outside of the 
+#### MyPageRank: 
+Class to find the pageRank of every Vertex.  In this class, outside of the 
 
 provided instance variables, I created  numVert, sink, prevRank, and currRank, instance 
 
@@ -32,7 +33,8 @@ be found in the conceptual question above.
 
 
 
-MyPrimJarnik: This class implemented the PrimJarnik algorithm to find a MST.  In this class I 
+#### MyPrimJarnik: 
+This class implemented the PrimJarnik algorithm to find a MST.  In this class I 
 
 used 4 decorators, cost, previous, visited, and entry.  I used cost to keep track of the minimum 
 
@@ -50,7 +52,9 @@ vertex with the lowest cost from the PQ at each iteration.
 
 
 
-AdjacencyMatrixGraph: had an adjacency matrix as the underlying data structure to keep 
+#### AdjacencyMatrixGraph:
+
+Had an adjacency matrix as the underlying data structure to keep 
 
 track of edges going from a vertex, which dictated the row, and to a vertex, which dictated the 
 
@@ -66,7 +70,9 @@ then implemented all methods as asked for, and commented for clarity.
 
 
 
-MyDecorator: implemented all methods using a HashMap so that the methods could 
+#### MyDecorator: 
+
+Implemented all methods using a HashMap so that the methods could 
 
 run in 0(1) time.  Thus, everytime a decorator is instantiated, you pass in a vertex, and a key 
 
@@ -76,7 +82,9 @@ accessed in O(1) time, and all methods in the class can be performed in O(1) tim
 
 
 
-GraphTest: In this class I simply wrote two test for each exception raised, one for a directed, 
+#### GraphTest: 
+
+In this class I simply wrote two test for each exception raised, one for a directed, 
 
 and one for an undirected graph (when the method functioned on both graphs).  And then I 
 
@@ -89,7 +97,9 @@ undirected because I already had so many tests, I thought it was easier to follo
 into one.
 
 
-MSFtest: oneVertex tested a graph with one vertex.  sameValue tested a graph where some 
+#### MSFtest: 
+
+OneVertex tested a graph with one vertex.  sameValue tested a graph where some 
 
 edges had the same value.  completeGraph tested a complete graph. standardTest was just 
 
@@ -107,7 +117,9 @@ looks like a square).
 
 
 
-MyPageRankTest: simpleTestOneSink tests a directed graph with one sink.  
+#### MyPageRankTest: 
+
+SimpleTestOneSink tests a directed graph with one sink.  
 
 UnconnectedSinkstest tests a directed graph each with a sink.  MultipleConnectedSinksTest 
 
@@ -122,12 +134,6 @@ directed graph where all vertices point to one vertex.  onePointingatAll tests a
 
 where one vertex points to all other vertices.  emptyGraph tests a directed graph that is 
 
-empty. And 
-
-sinksUnconnctedPointEdgeAKAeverythingAndTheKitchenSinkGetItKitchenSINKHA has 2 
-
-unconnected graphs edge with two sinks and vertices that have two edges between them, ran pageRank twice
-
-to make sure it doesn't alter any kind of graph.
+empty.
 
 

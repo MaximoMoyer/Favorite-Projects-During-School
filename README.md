@@ -24,7 +24,7 @@ Please note some of these projects have code not written by me, though the major
 **[Language Model - Trigram & RNN](https://github.com/MaximoMoyer/Favorite-Projects-During-School/tree/main/Language_Model)**
 - Language prediction model using self made trigram and off-the-shelf RNN (GRU) model.
 
-**[Machine Translation - Seq2Se,LST, & RNN](https://github.com/MaximoMoyer/Favorite-Projects-During-School/tree/main/Machine_Translation)**
+**[Machine Translation - Seq2Seq,LSTM, & RNN](https://github.com/MaximoMoyer/Favorite-Projects-During-School/tree/main/Machine_Translation)**
 - Model to translate French sentences into English. There are two Seq2Seq models impelemented - an LSTM and RNN. Both models utilize the encoder/decoder approach. This means, we use embeddings of a french sentence to produce a final state output from either an RNN or LSTM encoder. Then, we feed this into the decoder LSTM/RNN as the inital hidden state. Armed with this context, the decoder then feeds the outputted word, back into itself until sentence length is reached. The Decoder part of this model is essentially the same as the RNN section of the language modeling project - after the first word (since each model has full sentence context from the initial hidden state) the decoder is simply predicting the most likely next word.
 
 **[Robot Balance Pole - Policy Gradient RL](https://github.com/MaximoMoyer/Favorite-Projects-During-School/tree/main/Robot_Balance_Pole)**
